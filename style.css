@@ -4,6 +4,10 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 header{
     display: flex;
@@ -17,7 +21,9 @@ ul{
     flex-direction: row;
 }
 li{
-    margin-left: 5%
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 29px;
 }
 a{
     color: #ffffff;
@@ -43,6 +49,9 @@ img{
     margin-top: 30px;
     
 }
+ol{
+    color: #ffffff;
+}
 footer{
     margin-top: 2%;
     width: 100%;
@@ -51,6 +60,18 @@ footer{
 }
 span{
     color: #bb9c23;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+}
+button{
+    background-color: #89731b;
+    
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 768px) {
     ul{
