@@ -24,6 +24,7 @@ li{
     margin-left: 5%;
     margin-top: 5%;
     font-size: 29px;
+    text-align: center;
 }
 a{
     color: #ffffff;
@@ -51,6 +52,7 @@ img{
 }
 ol{
     color: #ffffff;
+    text-align: center;
 }
 footer{
     margin-top: 2%;
@@ -82,7 +84,9 @@ button{
         display: flex;
         flex-direction: column;
     }
-
+    li{
+        font-size: large;
+    }
 
 
 
