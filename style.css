@@ -94,6 +94,7 @@ hr{
     height: 20%;
     background-color: #bb9c23;
 }
+
 @media (max-width: 768px) {
     ul{
         display: flex;

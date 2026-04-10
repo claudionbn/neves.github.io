@@ -1,0 +1,43 @@
+#bg{
+    background-image: url("../animacao-relogio/data/sprite-fundo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+span{
+    color: #ffffff;
+    background-color: rgb(126, 2, 2);
+}
+
+button{
+    margin-top: 1%;
+}
+.botao{
+    margin-top: 15%;
+}
+#mascote {
+  margin-top: 20%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+#slime {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#comida {
+  position: absolute;
+  top: 100px;   /* ajusta a altura */
+  left: 100px;  /* ajusta para o lado */
+  width: 80px; /* tamanho da imagem de cima */
+  z-index: 2;  /* fica por cima do slime */
+}
