@@ -41,3 +41,19 @@ button{
   width: 80px; /* tamanho da imagem de cima */
   z-index: 2;  /* fica por cima do slime */
 }
+
+@media (max-width: 768px) {
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #1557b7, #29a85b, #89731b, #f8f11f);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+}
