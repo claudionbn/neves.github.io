@@ -54,6 +54,13 @@ ol{
     color: #ffffff;
     text-align: center;
 }
+p{
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 footer{
     margin-top: 2%;
     width: 100%;
@@ -95,7 +102,7 @@ hr{
     background-color: #bb9c23;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1541px) {
     ul{
         display: flex;
         flex-direction: column;
